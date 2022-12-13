@@ -102,7 +102,7 @@ int main(){
     }    if(g > 30){ gotoxy(34,15); cout << "Sepertinya aku melihat dia berduaan" << endl; 
 	    }
 	} Sleep(3000); system("clear");
-    cout << "apakah " << pone << " cemburu ? ya/tidak" << endl;
+    cout << "apakah " << ptwo << " cemburu ? ya/tidak" << endl;
 	cin >> masukan; if(masukan == "ya" || masukan == "Ya"){ poin -= 20; } else if(masukan == "tidak" || masukan == "Tidak"){ poin += 20;	} Sleep(3000); system("clear");
 	
     if(poin < 1){ cout << "Selamat " << pone << ", kamu berhasil putus dengan " << ptwo; putus(1000,pone); return 0; } 
