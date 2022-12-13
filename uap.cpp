@@ -52,7 +52,7 @@ int main(){
 		}
 		
 		cout << endl; paus(); 
-		cout << endl << ptwo << " Apakah kamu kesal dan ingin mengurangi poin " << ptwo << "? (ya/tidak) : ";
+		cout << endl << ptwo << " Apakah kamu kesal dan ingin mengurangi poin " << pone << "? (ya/tidak) : ";
 		cin >> masukan; if(masukan == "ya" || masukan == "Ya"){ poin -= 40; } else if(masukan == "tidak" || masukan == "Tidak"){ poin += 40; } else if(masukan != "tidak" || masukan != "ya"){ poin -= 40; cout << "dianggap sebagai ya."; }
 	}   else if(masukan != kode){ goto lagi; }
 	
